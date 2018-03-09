@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BuscarMensagensVolleySDM</string>
+    <string name="id_do_remetente">ID do remetente</string>
+    <string name="id_do_destinatario">ID do destinatário</string>
+    <string name="id_da_ultima_mensagem">ID da última mensagem</string>
+    <string name="buscar_mensagens">Buscar mensagens</string>
+</resources>

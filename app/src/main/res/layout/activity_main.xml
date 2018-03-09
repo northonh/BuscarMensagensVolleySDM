@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- ID do remetente da mensagem -->
+    <EditText
+        android:id="@+id/et_remetente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/id_do_remetente"/>
+
+    <!-- ID do destinatário da mensagem -->
+    <EditText
+        android:id="@+id/et_destinatario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/id_do_destinatario"/>
+
+    <!-- ID da última mensagem recuperada -->
+    <EditText
+        android:id="@+id/et_ultima_mensagem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/id_da_ultima_mensagem"/>
+
+    <!-- Botão de acesso ao Web Service -->
+    <Button
+        android:id="@+id/bt_buscar_mensagens"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="buscarMensagens"
+        android:text="@string/buscar_mensagens"/>
+</LinearLayout>
